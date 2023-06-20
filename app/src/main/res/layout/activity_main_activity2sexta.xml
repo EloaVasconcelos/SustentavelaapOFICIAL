@@ -65,8 +65,7 @@
         android:backgroundTint="#00bf63"
         android:fontFamily="sans-serif-black"
         android:text="VERIFICAR"
-        android:textSize="34sp"
-        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck,TextContrastCheck"
+        android:textSize="34sp" tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck,TextContrastCheck"
         tools:layout_editor_absoluteX="76dp"
         tools:layout_editor_absoluteY="315dp" />
 
@@ -75,7 +74,7 @@
         android:layout_width="377dp"
         android:layout_height="224dp"
         app:srcCompat="@drawable/map"
-        tools:ignore="ContentDescription,MissingConstraints,ImageContrastCheck,VisualLintBounds"
+       android:contentDescription="map"
         tools:layout_editor_absoluteX="18dp"
         tools:layout_editor_absoluteY="428dp" />
 
@@ -85,8 +84,7 @@
         android:layout_height="65dp"
         android:backgroundTint="#00bf63"
         android:text="Voltar"
-        android:textSize="24sp"
-        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintBounds"
+        android:textSize="24sp" tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintBounds"
         tools:layout_editor_absoluteX="157dp"
         tools:layout_editor_absoluteY="737dp" />
 
