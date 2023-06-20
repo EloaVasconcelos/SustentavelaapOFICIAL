@@ -16,6 +16,6 @@ findViewById(R.id.btnproximo);
 
         btnproximo.setOnClickListener(new View.OnClickListener() {
             public void onClick(View p) {
-                Intent proximo = new Intent(SecondMainActivity2.this MainterceiraActivity.class);
+                Intent proximo = new Intent(SecondMainActivity2.this terceiraActivity2.class);
                 startActivity(proximo);    }
 }
