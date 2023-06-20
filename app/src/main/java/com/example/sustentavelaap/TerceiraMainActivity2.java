@@ -28,13 +28,13 @@ findViewById(R.id.btnpontos);
 
         btnreci.setOnClickListener(new View.OnClickListener() {
             public void onClick(View n) {
-                Intent recicla = new Intent(TerceiraMainActivity2.this MainActivity2quarta.class);
+                Intent recicla = new Intent(TerceiraMainActivity2.this MainActivity2quinta.class);
                 startActivity(recicla);
 
 
         btnpontos.setOnClickListener(new View.OnClickListener() {
             public void onClick(View c) {
-                Intent pontos  = new Intent(TerceiraMainActivity2.this MainActivity2quarta.class);
+                Intent pontos  = new Intent(TerceiraMainActivity2.this MainActivity2sexta.class);
                 startActivity(pontos);
 
 
