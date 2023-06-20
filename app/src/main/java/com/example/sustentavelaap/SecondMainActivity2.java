@@ -10,5 +10,12 @@ public class SecondMainActivity2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second_main2);
-    }
+
+
+findViewById(R.id.btnproximo);
+
+        btnproximo.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View p) {
+                Intent proximo = new Intent(SecondMainActivity2.this MainterceiraActivity.class);
+                startActivity(proximo);    }
 }
