@@ -22,19 +22,19 @@ findViewById(R.id.btnpontos);
 
         btnsus.setOnClickListener(new View.OnClickListener() {
             public void onClick(View s) {
-                Intent susten = new Intent(terceiraMainActivity2.this MainActivity2quarta.class);
+                Intent susten = new Intent(TerceiraMainActivity2.this MainActivity2quarta.class);
                 startActivity(susten);
 
 
         btnreci.setOnClickListener(new View.OnClickListener() {
             public void onClick(View n) {
-                Intent recicla = new Intent(terceiraMainActivity2.this MainActivity2quarta.class);
+                Intent recicla = new Intent(TerceiraMainActivity2.this MainActivity2quarta.class);
                 startActivity(recicla);
 
 
         btnpontos.setOnClickListener(new View.OnClickListener() {
             public void onClick(View c) {
-                Intent pontos  = new Intent(terceiraMainActivity2.this MainActivity2quarta.class);
+                Intent pontos  = new Intent(TerceiraMainActivity2.this MainActivity2quarta.class);
                 startActivity(pontos);
 
 
