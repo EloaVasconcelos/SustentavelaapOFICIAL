@@ -26,7 +26,9 @@
     <string name="btnponto1">Pontos de Coletas</string>
     <string name="txtlocal"> Digite sua Localização</string>
     <string name="btnverificar2">VERIFICAR</string>
+<string name="map"></string> 
     <string name="btnvoltar3">Voltar</string>
+
     <string name="sustentabilidade">SUSTENTABILIDADE</string>
 
 
