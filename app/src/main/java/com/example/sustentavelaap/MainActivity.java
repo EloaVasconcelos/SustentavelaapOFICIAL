@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         btnentrar.setOnClickListener(new View.OnClickListener() {
             public void onClick(View e) {
                 Intent Entrar = new Intent(MainActivity.this,SecondMainActivity2.class);
-                startActivity(btnentrar);
+                startActivity(entrar);
 
 
             }
