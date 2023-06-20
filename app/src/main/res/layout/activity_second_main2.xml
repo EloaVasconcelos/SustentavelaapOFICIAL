@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/segundatela"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".SecondMainActivity2">
+
+    <LinearLayout
+        android:layout_width="367dp"
+        android:layout_height="7dp"
+        android:background="#5CEC62"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="437dp"
+        tools:ignore="MissingConstraints,VisualLintBounds"></LinearLayout>
+
+    <TextView
+        android:id="@+id/txttexto3"
+        android:layout_width="321dp"
+        android:layout_height="118dp"
+        android:backgroundTint="#000000"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text=" Além é possível descobrir os PONTOS DE COLETAS mais próximos, de acordo com a sua localização  "
+        android:textSize="24sp"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <TextView
+        android:id="@+id/txttexto2"
+        android:layout_width="357dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="75dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="O ponto Cliclo é um aplicativo de SUSTENTABILIDADE, onde você pode descobrir se um objeto é RECICLÁVEL ou Não "
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/txttexto3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txttexto1"
+        app:layout_constraintVertical_bias="0.541"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="415dp"
+        android:layout_height="32dp"
+        android:background="#5CEC62"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="-4dp"
+        tools:ignore="MissingConstraints,VisualLintBounds"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="415dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="660dp"
+        android:background="#5CEC62"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:ignore="MissingConstraints,VisualLintBounds" />
+
+    <LinearLayout
+        android:layout_width="197dp"
+        android:layout_height="61dp"
+        android:layout_marginEnd="7dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="626dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/btnproximo"
+            android:layout_width="208dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#00bf63"
+            android:text="Próximo"
+            android:textSize="24sp"
+            tools:ignore="HardcodedText,InefficientWeight,TextContrastCheck" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txttexto1"
+        android:layout_width="236dp"
+        android:layout_height="43dp"
+        android:fontFamily="sans-serif-black"
+        android:text="SOBRE O APP"
+        android:textColor="#138518"
+        android:textSize="34sp"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+    <TextView
+        android:id="@+id/txttexto4"
+        android:layout_width="374dp"
+        android:layout_height="121dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="O objetivo central do aplicativo é incentivar a reciclagem de maneira clara e dinâmica. Podendo ajudar o ambiente através da tecnologia"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="470dp" />
+
+    <LinearLayout
+        android:layout_width="367dp"
+        android:layout_height="7dp"
+        android:background="#5CEC62"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="270dp"
+        tools:ignore="MissingConstraints,VisualLintBounds"></LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

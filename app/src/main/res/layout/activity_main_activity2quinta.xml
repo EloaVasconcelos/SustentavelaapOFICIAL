@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tela5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2quinta" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="505dp"
+        android:layout_height="34dp"
+        android:background="#5CEC62"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="700dp"
+        tools:ignore="DuplicateIds,MissingConstraints,VisualLintBounds">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="507dp"
+        android:layout_height="33dp"
+        android:background="#5CEC62"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="838dp"
+        tools:ignore="DuplicateIds,MissingConstraints,VisualLintBounds">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="505dp"
+        android:layout_height="34dp"
+        android:background="#5CEC62"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="-4dp"
+        tools:ignore="DuplicateIds,MissingConstraints,VisualLintBounds">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnreci1"
+        android:layout_width="248dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="4dp"
+        android:backgroundTint="#00bf63"
+        android:fontFamily="sans-serif-black"
+        android:text="Reciclável ou Não"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:ignore="HardcodedText,SpUsage,TextContrastCheck,TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/txtdigite"
+        android:layout_width="364dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-condensed"
+        android:inputType="textPostalAddress"
+        android:text="Digite o nome do objeto: "
+        android:textSize="26sp"
+        tools:ignore="Autofill,HardcodedText,LabelFor,MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="241dp" />
+
+    <Button
+        android:id="@+id/btnverificar"
+        android:layout_width="264dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="117dp"
+        android:layout_marginEnd="117dp"
+        android:backgroundTint="#00bf63"
+        android:fontFamily="sans-serif-black"
+        android:text="VERIFICAR"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <TextView
+        android:id="@+id/txtresult"
+        android:layout_width="192dp"
+        android:layout_height="38dp"
+        android:backgroundTint="#000000"
+        android:fontFamily="sans-serif-black"
+        android:text="O OBJETO É: "
+        android:textSize="28dp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="490dp"
+        tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
+
+    <Button
+        android:id="@+id/btnvoltar2"
+        android:layout_width="137dp"
+        android:layout_height="51dp"
+        android:backgroundTint="#00bf63"
+        android:text="Voltar"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="640dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tela4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2quarta"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="700dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="449dp"
+        android:layout_height="33dp"
+        android:background="#5CEC62"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-36dp"
+        tools:layout_editor_absoluteY="701dp"
+        tools:ignore="DuplicateIds,MissingConstraints,VisualLintBounds"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="415dp"
+        android:layout_height="32dp"
+        android:background="#5CEC62"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="-4dp"
+        tools:ignore="DuplicateIds,MissingConstraints,VisualLintBounds">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btbsus1"
+        android:layout_width="189dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="4dp"
+        android:backgroundTint="#00bf63"
+        android:fontFamily="sans-serif-black"
+        android:text="Sustentabilidade "
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:ignore="HardcodedText,TextSizeCheck,TextContrastCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/txtoquee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="O que é?  "
+        android:textColor="#4CAF50"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <TextView
+        android:id="@+id/txttipos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Tipos de Reciclagem "
+        android:textColor="#4CAF50"
+        android:textSize="24sp"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="277dp" />
+
+    <Button
+        android:id="@+id/bntvoltar"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginEnd="115dp"
+        android:backgroundTint="#00bf63"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Voltar"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintOverlap"
+        tools:layout_editor_absoluteY="642dp" />
+
+    <TextView
+        android:id="@+id/txtoquee1"
+        android:layout_width="381dp"
+        android:layout_height="123dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="A reciclagem é um processo de transformação de um objeto descartado, produto. Portanto, por meio da alteração das características de materiais descartáveis, a criação de um novo material. ."
+        android:textSize="18sp"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="154dp" />
+
+    <TextView
+        android:id="@+id/txttipos1"
+        android:layout_width="392dp"
+        android:layout_height="384dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteY="317dp"
+        tools:text="Reciclagem Mecânica: Reciclagem mecânica recolhe os resíduos, que, posteriormente, são prensados e moídos.  Reciclagem Energética: Incineração (queima) dos resíduos sólidos. O lixo coletado é queimado em um ambiente controlado, gerando energia calorífera suficiente para abastecer usinas térmicas.  Reciclagem Química: A reciclagem química ocorre principalmente por meio do aquecimento de lixo, que é transformado em combustíveis, óleos e gases diversos, notadamente utilizados como matérias-primas e como fonte energética." />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
