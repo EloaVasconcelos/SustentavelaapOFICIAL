@@ -14,9 +14,9 @@
     <string name="txtoquee">O que é?</string>
     <string name="txttipos">Tipos de Reciclagem </string>
     <string name="txtoquee1">A reciclagem é um processo de transformação de um objeto descartado, produto. Portanto, por meio da alteração das características de materiais descartáveis, a criação de um novo material.</string>
-    <string name="txttipo1">Reciclagem Mecânica: Reciclagem mecânica recolhe os resíduos, que, posteriormente, são prensados e moídos.
-        Reciclagem Energética: Incineração (queima) dos resíduos sólidos. O lixo coletado é queimado em um ambiente controlado, gerando energia calorífera suficiente para abastecer usinas térmicas.
-        Reciclagem Química: A reciclagem química ocorre principalmente por meio do aquecimento de lixo, que é transformado em combustíveis, óleos e gases diversos, notadamente utilizados como matérias-primas e como fonte energética.</string>
+    <string name="txttipo1"> Reciclagem Mecânica: Recolhe os resíduos que serão prensados e moídos.
+                        Reciclagem Energética: Incineração dos resíduos sólidos, que gera energia calorífera suficiente para abastecer usinas térmicas.
+                        Reciclagem Química: Ocorre por meio do aquecimento de lixo, que é transformado em combustíveis, óleos, gases, matérias-primas e fonte energética.</string>
     <string name="btnvoltar">Voltar</string>
     <string name="btnreci1">Reciclável ou Não</string>
     <string name="txtdigite"> Digite o nome do objeto:</string>
@@ -26,7 +26,7 @@
     <string name="btnponto1">Pontos de Coletas</string>
     <string name="txtlocal"> Digite sua Localização</string>
     <string name="btnverificar2">VERIFICAR</string>
-<string name="map"></string> 
+    <string name="map"></string>
     <string name="btnvoltar3">Voltar</string>
 
     <string name="sustentabilidade">SUSTENTABILIDADE</string>

@@ -55,7 +55,7 @@
         android:textSize="24sp"
         tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck"
         tools:layout_editor_absoluteX="11dp"
-        tools:layout_editor_absoluteY="111dp" />
+        tools:layout_editor_absoluteY="140dp" />
 
     <TextView
         android:id="@+id/txttipos"
@@ -67,10 +67,10 @@
         android:textSize="24sp"
         tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck"
         tools:layout_editor_absoluteX="11dp"
-        tools:layout_editor_absoluteY="277dp" />
+        tools:layout_editor_absoluteY="339dp" />
 
     <Button
-        android:id="@+id/bntvoltar"
+        android:id="@+id/btnvoltar"
         android:layout_width="130dp"
         android:layout_height="50dp"
         android:layout_marginStart="115dp"
@@ -87,25 +87,25 @@
 
     <TextView
         android:id="@+id/txtoquee1"
-        android:layout_width="381dp"
-        android:layout_height="123dp"
+        android:layout_width="400dp"
+        android:layout_height="146dp"
         android:fontFamily="sans-serif-medium"
-        android:text="A reciclagem é um processo de transformação de um objeto descartado, produto. Portanto, por meio da alteração das características de materiais descartáveis, a criação de um novo material. ."
-        android:textSize="18sp"
+        android:text="A reciclagem é um processo de transformação de um objeto descartado, produto. Portanto, por meio da alteração das características de materiais descartáveis, a criação de um novo material. "
+        android:textSize="20sp"
         tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck"
         tools:layout_editor_absoluteX="11dp"
-        tools:layout_editor_absoluteY="154dp" />
+        tools:layout_editor_absoluteY="179dp" />
 
     <TextView
         android:id="@+id/txttipos1"
         android:layout_width="392dp"
         android:layout_height="384dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="4dp"
         android:fontFamily="sans-serif-medium"
-        android:textSize="19sp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints,TextSizeCheck"
-        tools:layout_editor_absoluteY="317dp"
-        tools:text="Reciclagem Mecânica: Reciclagem mecânica recolhe os resíduos, que, posteriormente, são prensados e moídos.  Reciclagem Energética: Incineração (queima) dos resíduos sólidos. O lixo coletado é queimado em um ambiente controlado, gerando energia calorífera suficiente para abastecer usinas térmicas.  Reciclagem Química: A reciclagem química ocorre principalmente por meio do aquecimento de lixo, que é transformado em combustíveis, óleos e gases diversos, notadamente utilizados como matérias-primas e como fonte energética." />
+        tools:layout_editor_absoluteY="371dp"
+        tools:text="Reciclagem Mecânica: Recolhe os resíduos que serão prensados e moídos.  Reciclagem Energética: Incineração dos resíduos sólidos, que gera energia calorífera suficiente para abastecer usinas térmicas.  Reciclagem Química: Ocorre por meio do aquecimento de lixo, que é transformado em combustíveis, óleos, gases, matérias-primas e fonte energética." />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
