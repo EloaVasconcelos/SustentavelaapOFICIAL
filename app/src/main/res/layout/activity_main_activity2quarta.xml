@@ -39,7 +39,7 @@
         android:layout_marginEnd="4dp"
         android:backgroundTint="#00bf63"
         android:fontFamily="sans-serif-black"
-        android:text="Sustentabilidade "
+        android:text="@string/btnsus1"
         android:textSize="17sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
@@ -50,51 +50,51 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
-        android:text="O que é?  "
+        android:text="@string/txtoquee"
         android:textColor="#4CAF50"
         android:textSize="24sp"
         tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck"
-        tools:layout_editor_absoluteX="11dp"
-        tools:layout_editor_absoluteY="140dp" />
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="161dp" />
 
     <TextView
         android:id="@+id/txttipos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
-        android:text="Tipos de Reciclagem "
+        android:text="@string/txttipos"
         android:textColor="#4CAF50"
         android:textSize="24sp"
         tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck"
-        tools:layout_editor_absoluteX="11dp"
-        tools:layout_editor_absoluteY="339dp" />
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="363dp" />
 
     <Button
         android:id="@+id/btnvoltar"
-        android:layout_width="130dp"
+        android:layout_width="123dp"
         android:layout_height="50dp"
         android:layout_marginStart="115dp"
         android:layout_marginEnd="115dp"
         android:backgroundTint="#00bf63"
         android:fontFamily="sans-serif-condensed-medium"
-        android:text="Voltar"
+        android:text="@string/btnvoltar"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintOverlap"
-        tools:layout_editor_absoluteY="642dp" />
+        tools:layout_editor_absoluteY="641dp" />
 
     <TextView
         android:id="@+id/txtoquee1"
         android:layout_width="400dp"
         android:layout_height="146dp"
         android:fontFamily="sans-serif-medium"
-        android:text="A reciclagem é um processo de transformação de um objeto descartado, produto. Portanto, por meio da alteração das características de materiais descartáveis, a criação de um novo material. "
+        android:text="@string/txtoquee1"
         android:textSize="20sp"
         tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck"
-        tools:layout_editor_absoluteX="11dp"
-        tools:layout_editor_absoluteY="179dp" />
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="200dp" />
 
     <TextView
         android:id="@+id/txttipos1"
@@ -105,7 +105,16 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints,TextSizeCheck"
-        tools:layout_editor_absoluteY="371dp"
-        tools:text="Reciclagem Mecânica: Recolhe os resíduos que serão prensados e moídos.  Reciclagem Energética: Incineração dos resíduos sólidos, que gera energia calorífera suficiente para abastecer usinas térmicas.  Reciclagem Química: Ocorre por meio do aquecimento de lixo, que é transformado em combustíveis, óleos, gases, matérias-primas e fonte energética." />
+        tools:layout_editor_absoluteY="395dp"
+        tools:text="@string/txttipo1" />
+
+    <ImageView
+        android:id="@+id/imglogo3"
+        android:layout_width="246dp"
+        android:layout_height="97dp"
+        android:contentDescription="@string/imglogo"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="-57dp"
+        tools:layout_editor_absoluteY="29dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -51,24 +51,11 @@
         android:layout_marginEnd="4dp"
         android:backgroundTint="#00bf63"
         android:fontFamily="sans-serif-black"
-        android:text="Reciclável ou Não"
+        android:text="@string/btnreci1"
         android:textSize="22dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
         tools:ignore="HardcodedText,SpUsage,TextContrastCheck,TextSizeCheck" />
-
-    <EditText
-        android:id="@+id/txtdigite"
-        android:layout_width="364dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:fontFamily="sans-serif-condensed"
-        android:inputType="textPostalAddress"
-        android:text="Digite o nome do objeto: "
-        android:textSize="26sp"
-        tools:ignore="Autofill,HardcodedText,LabelFor,MissingConstraints,TextSizeCheck"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="241dp" />
 
     <Button
         android:id="@+id/btnverificar"
@@ -78,7 +65,7 @@
         android:layout_marginEnd="117dp"
         android:backgroundTint="#00bf63"
         android:fontFamily="sans-serif-black"
-        android:text="VERIFICAR"
+        android:text="@string/btnverificar"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.505"
@@ -92,21 +79,42 @@
         android:layout_height="38dp"
         android:backgroundTint="#000000"
         android:fontFamily="sans-serif-black"
-        android:text="O OBJETO É: "
+        android:text="@string/txtresult"
         android:textSize="28dp"
+        tools:ignore="HardcodedText,MissingConstraints,SpUsage"
         tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="490dp"
-        tools:ignore="HardcodedText,MissingConstraints,SpUsage" />
+        tools:layout_editor_absoluteY="490dp" />
 
     <Button
         android:id="@+id/btnvoltar2"
-        android:layout_width="137dp"
-        android:layout_height="51dp"
+        android:layout_width="130dp"
+        android:layout_height="55dp"
         android:backgroundTint="#00bf63"
-        android:text="Voltar"
+        android:text="@string/btnvoltar2"
         android:textSize="24sp"
         tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck"
-        tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="640dp" />
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="631dp" />
+
+    <EditText
+        android:id="@+id/txtdigite"
+        android:layout_width="295dp"
+        android:layout_height="67dp"
+        android:ems="10"
+        android:hint="@string/txtdigite"
+        android:inputType="text"
+        android:text="@string/txtdigite"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <ImageView
+        android:id="@+id/imglogo4"
+        android:layout_width="110dp"
+        android:layout_height="105dp"
+        android:contentDescription="@string/imglogo"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="39dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
