@@ -11,91 +11,145 @@
         android:id="@+id/linearLayout"
         android:layout_width="415dp"
         android:layout_height="32dp"
+        android:layout_marginTop="125dp"
         android:background="#5CEC62"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="701dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnpontos"
         tools:ignore="MissingConstraints,VisualLintBounds"></LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="415dp"
         android:layout_height="32dp"
+        android:layout_marginBottom="3dp"
         android:background="#5CEC62"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="-4dp"
+        app:layout_constraintBottom_toTopOf="@+id/imglogo2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="DuplicateIds,MissingConstraints,VisualLintBounds"></LinearLayout>
 
     <Button
         android:id="@+id/btnsombra1"
         android:layout_width="384dp"
         android:layout_height="76dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="465dp"
         android:backgroundTint="#8300BF63"
-        tools:ignore="MissingConstraints,VisualLintOverlap,SpeakableTextPresentCheck,VisualLintButtonSize"
-        tools:layout_editor_absoluteX="13dp"
-        tools:layout_editor_absoluteY="256dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imglogo2"
+        tools:ignore="MissingConstraints,VisualLintOverlap,SpeakableTextPresentCheck,VisualLintButtonSize" />
 
     <Button
         android:id="@+id/btnsus"
         android:layout_width="384dp"
         android:layout_height="76dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="450dp"
         android:backgroundTint="#00bf63"
         android:text="@string/sustentabilidade"
         android:textSize="34sp"
-        tools:ignore="MissingConstraints,TextSizeCheck,TextContrastCheck,VisualLintButtonSize"
-        tools:layout_editor_absoluteX="19dp"
-        tools:layout_editor_absoluteY="240dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imglogo2"
+        tools:ignore="MissingConstraints,TextSizeCheck,TextContrastCheck,VisualLintButtonSize,VisualLintOverlap" />
 
     <Button
         android:id="@+id/btnsombra2"
         android:layout_width="384dp"
         android:layout_height="76dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="340dp"
         android:backgroundTint="#8300BF63"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,VisualLintOverlap,VisualLintButtonSize"
-        tools:layout_editor_absoluteX="13dp"
-        tools:layout_editor_absoluteY="403dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,VisualLintOverlap,VisualLintButtonSize" />
 
     <Button
         android:id="@+id/btnreci"
         android:layout_width="384dp"
         android:layout_height="76dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="432dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="315dp"
         android:backgroundTint="#00bf63"
         android:text="@string/btnreci"
         android:textSize="34sp"
-        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,TextSizeCheck,VisualLintButtonSize"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="387dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btnsombra2"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,TextSizeCheck,VisualLintButtonSize" />
 
     <Button
         android:id="@+id/btnpontos"
         android:layout_width="384dp"
         android:layout_height="76dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="150dp"
         android:backgroundTint="#8300BF63"
-        tools:ignore="DuplicateIds,MissingConstraints,SpeakableTextPresentCheck,VisualLintButtonSize,VisualLintOverlap"
-        tools:layout_editor_absoluteX="11dp"
-        tools:layout_editor_absoluteY="552dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnsombra2"
+        tools:ignore="DuplicateIds,MissingConstraints,SpeakableTextPresentCheck,VisualLintButtonSize,VisualLintOverlap" />
 
     <Button
         android:id="@+id/btnpontos"
         android:layout_width="388dp"
         android:layout_height="79dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="160dp"
         android:backgroundTint="#00bf63"
         android:text="@string/btnpontos"
         android:textColor="#ffffff"
         android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="DuplicateIds,HardcodedText,MissingConstraints,TextContrastCheck,TextSizeCheck,VisualLintButtonSize"
-        tools:layout_editor_absoluteY="536dp" />
+        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnsombra2"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="DuplicateIds,HardcodedText,MissingConstraints,TextContrastCheck,TextSizeCheck,VisualLintButtonSize,VisualLintBounds" />
 
     <ImageView
         android:id="@+id/imglogo2"
         android:layout_width="233dp"
         android:layout_height="195dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="593dp"
         android:contentDescription="@string/imglogo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo"
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="29dp" />
+        tools:ignore="ImageContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

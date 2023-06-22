@@ -9,37 +9,49 @@
     tools:context=".SecondMainActivity2">
 
     <LinearLayout
+        android:id="@+id/linearLayout5"
         android:layout_width="367dp"
         android:layout_height="7dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="30dp"
         android:background="#5CEC62"
         android:orientation="horizontal"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="437dp"
+        app:layout_constraintBottom_toTopOf="@+id/txttexto4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txttexto3"
         tools:ignore="MissingConstraints,VisualLintBounds"></LinearLayout>
 
     <TextView
         android:id="@+id/txttexto3"
         android:layout_width="321dp"
         android:layout_height="118dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="22dp"
         android:backgroundTint="#000000"
         android:fontFamily="sans-serif-condensed-medium"
+        android:foregroundTint="#000000"
         android:text="@string/txttexto2"
         android:textSize="24sp"
-        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck"
-        tools:layout_editor_absoluteX="84dp"
-        tools:layout_editor_absoluteY="297dp" />
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck" />
 
     <TextView
         android:id="@+id/txttexto2"
         android:layout_width="357dp"
         android:layout_height="127dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="75dp"
         android:fontFamily="sans-serif-condensed-medium"
         android:text="@string/txttexto2"
         android:textSize="24sp"
+        android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/txttexto3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -52,41 +64,54 @@
         android:id="@+id/linearLayout"
         android:layout_width="415dp"
         android:layout_height="32dp"
+        android:layout_marginBottom="20dp"
         android:background="#5CEC62"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="-4dp"
+        app:layout_constraintBottom_toTopOf="@+id/txttexto1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints,VisualLintBounds"></LinearLayout>
 
     <LinearLayout
+        android:id="@+id/linearLayout7"
         android:layout_width="415dp"
         android:layout_height="32dp"
-        android:layout_marginTop="660dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginBottom="3dp"
         android:background="#5CEC62"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="1.0"
-        tools:layout_editor_absoluteX="-2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6"
         tools:ignore="MissingConstraints,VisualLintBounds" />
 
     <LinearLayout
+        android:id="@+id/linearLayout6"
         android:layout_width="197dp"
         android:layout_height="61dp"
-        android:layout_marginEnd="7dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="2dp"
         android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/btnproximo"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="626dp"
-        tools:ignore="MissingConstraints">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txttexto4"
+        tools:ignore="MissingConstraints,NotSibling">
 
         <Button
             android:id="@+id/btnproximo"
-            android:layout_width="208dp"
-            android:layout_height="match_parent"
+            android:layout_width="161dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="1dp"
             android:layout_weight="1"
             android:backgroundTint="#00bf63"
             android:text="@string/btnproximo"
             android:textSize="24sp"
+            android:visibility="visible"
             tools:ignore="HardcodedText,InefficientWeight,TextContrastCheck" />
     </LinearLayout>
 
@@ -94,31 +119,51 @@
         android:id="@+id/txttexto1"
         android:layout_width="236dp"
         android:layout_height="43dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="4dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/txttexto1"
         android:textColor="#138518"
         android:textSize="34sp"
-        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="44dp" />
+        app:layout_constraintBottom_toTopOf="@+id/txttexto2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck" />
 
     <TextView
         android:id="@+id/txttexto4"
         android:layout_width="374dp"
         android:layout_height="121dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="20dp"
         android:fontFamily="sans-serif-condensed-medium"
         android:text="@string/txttexto3"
         android:textSize="24sp"
-        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="470dp" />
+        app:drawableTint="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck" />
 
     <LinearLayout
+        android:id="@+id/linearLayout3"
         android:layout_width="367dp"
         android:layout_height="7dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
         android:background="#5CEC62"
         android:orientation="horizontal"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="270dp"
+        app:layout_constraintBottom_toTopOf="@+id/txttexto3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txttexto2"
         tools:ignore="MissingConstraints,VisualLintBounds"></LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

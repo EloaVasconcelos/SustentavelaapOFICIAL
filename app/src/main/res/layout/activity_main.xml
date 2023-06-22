@@ -11,10 +11,14 @@
     <LinearLayout
         android:layout_width="415dp"
         android:layout_height="32dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="99dp"
         android:background="#5CEC62"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="699dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnentrar"
         tools:ignore="MissingConstraints,VisualLintBounds"></LinearLayout>
 
     <Button
@@ -23,7 +27,7 @@
         android:layout_height="67dp"
         android:layout_marginStart="109dp"
         android:layout_marginTop="578dp"
-        android:layout_marginEnd="109dp"
+        android:layout_marginEnd="100dp"
         android:layout_marginBottom="90dp"
         android:backgroundTint="#00bf63"
         android:fontFamily="sans-serif-medium"
@@ -35,24 +39,36 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.556"
         tools:ignore="HardcodedText,TextContrastCheck" />
 
     <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="415dp"
         android:layout_height="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
         android:background="#5CEC62"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/imglogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75"
         tools:ignore="MissingConstraints,VisualLintBounds"></LinearLayout>
 
     <ImageView
         android:id="@+id/imglogo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
         android:contentDescription="@string/imglogo"
-        app:srcCompat="@drawable/logo"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="72dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btnentrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo" />
 </androidx.constraintlayout.widget.ConstraintLayout>

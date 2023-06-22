@@ -11,22 +11,13 @@
         android:id="@+id/linearLayout"
         android:layout_width="505dp"
         android:layout_height="34dp"
+        android:layout_marginTop="789dp"
         android:background="#5CEC62"
         android:orientation="vertical"
-        tools:ignore="DuplicateIds,MissingConstraints,VisualLintBounds"
-        tools:layout_editor_absoluteX="-16dp"
-        tools:layout_editor_absoluteY="700dp">
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="505dp"
-        android:layout_height="34dp"
-        android:background="#5CEC62"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="-29dp"
-        tools:layout_editor_absoluteY="809dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="DuplicateIds,MissingConstraints,VisualLintBounds">
 
     </LinearLayout>
@@ -35,90 +26,114 @@
         android:id="@+id/linearLayout"
         android:layout_width="505dp"
         android:layout_height="34dp"
+        android:layout_marginBottom="789dp"
         android:background="#5CEC62"
         android:orientation="vertical"
-        tools:ignore="DuplicateIds,MissingConstraints,VisualLintBounds"
-        tools:layout_editor_absoluteX="-3dp"
-        tools:layout_editor_absoluteY="-1dp">
-
-        <LinearLayout
-            android:id="@+id/linearLayout"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#5CEC62"
-            android:orientation="vertical"
-            tools:ignore="DuplicateIds,MissingConstraints,VisualLintBounds"
-            tools:layout_editor_absoluteX="-4dp"
-            tools:layout_editor_absoluteY="3dp">
-
-        </LinearLayout>
-    </LinearLayout>
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateIds,MissingConstraints,VisualLintBounds" />
 
     <Button
         android:id="@+id/btnponto1"
         android:layout_width="248dp"
         android:layout_height="55dp"
-        android:layout_marginTop="9dp"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="42dp"
         android:layout_marginEnd="4dp"
+        android:layout_marginBottom="726dp"
         android:backgroundTint="#00bf63"
         android:fontFamily="sans-serif-black"
         android:text="@string/btnponto1"
         android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText,TextContrastCheck,TextSizeCheck" />
 
     <Button
         android:id="@+id/btnverificar2"
         android:layout_width="258dp"
         android:layout_height="61sp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="285dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="477dp"
         android:backgroundTint="#00bf63"
         android:fontFamily="sans-serif-black"
         android:text="@string/btnverificar2"
         android:textSize="34sp"
-        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck,TextContrastCheck"
-        tools:layout_editor_absoluteX="76dp"
-        tools:layout_editor_absoluteY="285dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck,TextContrastCheck" />
 
     <ImageView
         android:id="@+id/img1"
         android:layout_width="359dp"
         android:layout_height="175dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="383dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="265dp"
         android:contentDescription="@string/map"
-        app:srcCompat="@drawable/map"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="383dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/map" />
 
     <Button
         android:id="@+id/btnvoltar3"
         android:layout_width="141dp"
         android:layout_height="59dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="631dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="133dp"
         android:backgroundTint="#00bf63"
         android:text="@string/btnvoltar3"
         android:textSize="24sp"
-        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintBounds"
-        tools:layout_editor_absoluteX="135dp"
-        tools:layout_editor_absoluteY="631dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck,VisualLintBounds" />
 
     <EditText
         android:id="@+id/txtlocal"
         android:layout_width="363dp"
         android:layout_height="116dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="147dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="560dp"
         android:ems="10"
         android:hint="@string/txtlocal"
         android:inputType="text"
         android:text="@string/txtlocal"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="22dp"
-        tools:layout_editor_absoluteY="147dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imglogo5"
         android:layout_width="110dp"
         android:layout_height="105dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="294dp"
+        android:layout_marginBottom="684dp"
         android:contentDescription="@string/imglogo"
-        app:srcCompat="@drawable/logo"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="34dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

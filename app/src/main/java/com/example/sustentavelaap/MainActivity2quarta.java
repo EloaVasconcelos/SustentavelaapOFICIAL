@@ -10,7 +10,7 @@ import android.widget.Button;
 
 public class MainActivity2quarta extends AppCompatActivity {
 Button btnvoltar;
-    @SuppressLint("MissingInflatedId")
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
