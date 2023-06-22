@@ -15,13 +15,13 @@ public class SecondMainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_second_main2);
 
 
-        btnproximo=(Button) findViewById(R.id.btnproximo);
+        btnproximo= (Button) findViewById(R.id.btnproximo);
 
         btnproximo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View p) {
                 Intent proximo = new Intent(SecondMainActivity2.this,TerceiraMainActivity2.class);
-                startActivity (proximo);
+                startActivity(proximo);
 
             }
         });
