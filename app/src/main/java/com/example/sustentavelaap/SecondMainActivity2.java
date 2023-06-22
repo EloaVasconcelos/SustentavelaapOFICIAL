@@ -18,6 +18,7 @@ public class SecondMainActivity2 extends AppCompatActivity {
         btnproximo=(Button) findViewById(R.id.btnproximo);
 
         btnproximo.setOnClickListener(new View.OnClickListener() {
+            @Override
             public void onClick(View p) {
                 Intent proximo = new Intent(SecondMainActivity2.this,TerceiraMainActivity2.class);
                 startActivity (proximo);

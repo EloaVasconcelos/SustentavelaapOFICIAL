@@ -19,6 +19,7 @@ Button btnvoltar2;
        btnvoltar2=(Button) findViewById(R.id.btnvoltar2);
 
         btnvoltar2.setOnClickListener(new View.OnClickListener() {
+            @Override
             public void onClick(View vol) {
                 Intent voltar2 = new Intent(MainActivity2quinta.this,TerceiraMainActivity2.class);
                 startActivity(voltar2);
