@@ -23,6 +23,7 @@ Button btnpontos;
             @Override
             public void onClick(View s) {
                 Intent susten = new Intent(TerceiraMainActivity2.this, MainActivity2quarta.class);
+                startActivity(susten);
 
             }
         });
@@ -34,6 +35,7 @@ Button btnpontos;
             @Override
             public void onClick(View n) {
                 Intent recicla = new Intent(TerceiraMainActivity2.this, MainActivity2quinta.class);
+                startActivity(recicla);
 
             }
         });
@@ -44,6 +46,7 @@ Button btnpontos;
             @Override
             public void onClick(View c) {
                 Intent pontos = new Intent(TerceiraMainActivity2.this, MainActivity2sexta.class);
+                startActivity(pontos);
 
 
             }
